@@ -3,5 +3,8 @@ This repository includes classifying the hand written digits from the MNIST data
 
 
 ## mnist_classification_keras.py
-In this file we shall download the inbuilt MNIST dataset from the Keras and we shall do the digit classification using a simple neural network built using Keras. In this code we make use of the rmsprop optimizer for back propagation.
-Please look into the code for a detailed explanation.
+
+
+In this program, we shall download the inbuilt MNIST dataset from the Keras framework. Here I am using Keras with Tensorflow background. we shall do the digit classification of the MNIST dataset, using a simple neural network built using Keras. 
+
+In this code we make use of the rmsprop optimizer for back propagation. Please look into the code for a detailed explanation.
