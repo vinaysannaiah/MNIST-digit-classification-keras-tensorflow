@@ -24,8 +24,12 @@ model = Sequential() # make our model Sequential
 model.add(Dense(50, activation = "relu", input_shape= (28*28,))) # add a hidden layer
 model.add(Dense(10, activation = 'softmax')) # add an output layer
 
-# do the back propagation - rmsprop optimizer
-model.compile(optimizer = "rmsprop", loss = 'categorical_crossentropy', metrics=['accuracy'])
+# do the back propagation 
+# rmsprop optimizer
+# model.compile(optimizer = "rmsprop", loss = 'categorical_crossentropy', metrics=['accuracy'])
+
+# Adam optimizer
+model.compile(optimizer = "adam", loss = 'categorical_crossentropy', metrics=['accuracy'])
 
 # prepare the train data
 train_images = train_images.reshape((60000, 28*28))
